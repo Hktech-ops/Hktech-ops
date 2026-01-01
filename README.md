@@ -1,5 +1,3 @@
-# A brief into about myself
-
 # Hi, I'm Harsh 👋
 
 Azure Administrator based in Toronto, Canada.  
