@@ -1,6 +1,6 @@
 # Hi, I'm Harsh 👋
 
-Azure Cloud Administrator based in Toronto, Canada.  
+Azure Cloud Engineer based in Toronto, Canada.  
 I'm working on Azure labs and projects, mimicing real-world scenarios.
 
 ---
