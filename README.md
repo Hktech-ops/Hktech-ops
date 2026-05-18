@@ -3,7 +3,7 @@
 Cloud / DevOps / Platform Engineer (Azure) — based in Toronto.  
 I build secure, private-first Azure infrastructure with Terraform, with governance and observability baked in.
 
-**Open to mid-level Cloud / DevOps / Platform Engineering roles (Toronto).**  
+**Open to mid-level Cloud / DevOps / Platform Engineering roles.**  
 - LinkedIn: [harsh-kathwadia](https://www.linkedin.com/in/harsh-kathwadia)
 - GitHub: [Hktech-ops](https://github.com/Hktech-ops)
 
