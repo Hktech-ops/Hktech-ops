@@ -47,9 +47,7 @@ Selected builds:
 - **Cloud Mesh lab (IIS + Apache across secure VNets)**  
   (bi-directional peering, Bastion, NSG hardening, automated web server installs)  
   Link: [Project folder](https://github.com/Hktech-ops/mini-projects/tree/main/Cloud%20Mesh:%20IIS%20and%20Apache%20across%20secure%20VNets)
-
-- **Static website hosting on Azure Blob Storage** (foundation for CDN/Front Door hardening)  
-  Link: [Project folder](https://github.com/Hktech-ops/mini-projects/tree/main/Static%20Website%20hosting%20on%20Blob%20Storage)
+  
 
 ## Application delivery / CI/CD repos
 
