@@ -1,6 +1,6 @@
 # Harsh Kathwadia (HK)
 
-Cloud / DevOps / Platform Engineering (Azure) — based in Toronto.  
+Cloud / DevOps / Platform Engineer (Azure) — based in Toronto.  
 I build secure, private-first Azure infrastructure with Terraform, with governance and observability baked in.
 
 **Open to mid-level Cloud / DevOps / Platform Engineering roles (Toronto).**  
