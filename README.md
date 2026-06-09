@@ -1,90 +1,65 @@
 # Harsh Kathwadia (HK)
 
-Cloud / DevOps / Platform Engineer (Azure) — based in Toronto.  
-I build secure, private-first Azure infrastructure with Terraform, with governance, observability and security baked in.
+**Cloud / DevOps / Platform Engineer - based in Toronto** 
 
-**Open to mid-level Cloud / DevOps / Platform Engineering roles.**  
-- LinkedIn: [harsh-kathwadia](https://www.linkedin.com/in/harsh-kathwadia)
-- GitHub: [Hktech-ops](https://github.com/Hktech-ops)
+I build production-grade, private-by-default Azure infrastructure using **Terraform** and **GitHub Actions**. My focus is on implementing the **Microsoft Cloud Adoption Framework (CAF)** with a strong emphasis on security, automation, and observability.
 
-## What I do (focus areas)
+### 🌟 Featured Project: [Azure Landing Zone (CI/CD)](https://github.com/Hktech-ops/azure-landing-zone-cicd)
+**Enterprise-grade Azure Baseline with Automated Governance & Security Gates**
 
-- **Azure platform engineering:** Landing zones, subscriptions, management groups, policy, RBAC
-- **Secure networking:** Hub-spoke, Azure Firewall, Bastion, NSGs, UDRs, private endpoints + private DNS
-- **Workload platform:** AKS, App Service, containerized workloads using Docker
-- **Observability:** Log Analytics, diagnostic settings, Azure Monitor Private Link Scope (AMPLS)
-- **Delivery & automation:** Terraform modules, CI/CD pipelines (Azure DevOps + Jenkins), Docker builds, Kubernetes manifests, scripting
-
-## Featured projects
-
-### 1) Azure Landing Zone (Terraform) — enterprise-style baseline
-Repo: [azure-landing-zone](https://github.com/Hktech-ops/azure-landing-zone)
-
-A production-style Azure Landing Zone built with Terraform to demonstrate real platform engineering patterns:
-- **Hub/Spoke networking** with **Azure Firewall** (DNAT + centralized egress), **Bastion**, NSGs, UDR forced tunneling
-- **Private-first PaaS**: Key Vault, ACR, Storage, SQL using **Private Endpoints + Private DNS**
-- **Governance**: management group hierarchy, policy initiatives (allowed locations, required tags, deploy diagnostic settings)
-- **Observability**: centralized **Log Analytics**, private ingestion/query, **AMPLS**, and diagnostic settings across resources
-
-### 2) Azure Labs — hands-on operational labs (AZ-104 style + real-world tasks)
-Repo: [azure-labs](https://github.com/Hktech-ops/azure-labs)
-
-A structured lab collection covering:
-- VM operations and administration
-- Web apps and deployment patterns
-- Intersite connectivity and peering
-- Virtual networking and segmentation
-- Traffic filtering with NSGs/ASGs
-
-### 3) Mini Projects — architecture patterns & simulations
-Repo: [mini-projects](https://github.com/Hktech-ops/mini-projects)
-
-Selected builds:
-- **Highly Available, Scalable & Secure Web Architecture on Azure**  
-  (VM Scale Sets + App Gateway + Firewall + hub/spoke + forced tunneling)  
-  Link: [Project folder](https://github.com/Hktech-ops/mini-projects/tree/main/Highly%20Available%2C%20Scalable%20%26%20Secure%20Web%20Architecture)
-
-- **Cloud Mesh lab (IIS + Apache across secure VNets)**  
-  (bi-directional peering, Bastion, NSG hardening, automated web server installs)  
-  Link: [Project folder](https://github.com/Hktech-ops/mini-projects/tree/main/Cloud%20Mesh:%20IIS%20and%20Apache%20across%20secure%20VNets)
-  
-
-## Application delivery / CI/CD repos
-
-I also maintain hands-on repos focused on application packaging, delivery pipelines, and deployment workflow patterns:
-
-- **Spring Boot app with containerization, manifests, and pipeline files**  
-  Repo: [my-spring-boot-app](https://github.com/Hktech-ops/my-spring-boot-app)
-
-- **Containerized Java app with CI/CD-oriented files**  
-  Docker, Jenkins, and deployment-related specs  
-  Repo: [java-app-containerized](https://github.com/Hktech-ops/java-app-containerized)
-
-- **Java app with Jenkins-focused pipeline workflow**  
-  Repo: [java-app-jenkins](https://github.com/Hktech-ops/java-app-jenkins)
-
-These repos reflect my growing DevOps focus around:
-- containerizing workloads with **Docker**
-- building CI/CD pipelines in **Jenkins** and **Azure DevOps**
-- working with deployment manifests and automation patterns
-- connecting infrastructure thinking with workload delivery
-
-## How I approach production infrastructure
-
-- **Private-by-default** (avoid public exposure; use private endpoints + correct DNS)
-- **Least privilege** via Entra ID groups + scoped RBAC
-- **Observability as baseline:** centralized logging, diagnostics, and platform visibility from day one
-- **Central logging** and diagnostic settings as a baseline requirement
-- **Cost guardrails** (quotas/retention/centralization) to prevent runaway spend
-- Prefer **repeatable Terraform modules** over one-off scripts
-
-## Currently improving
-
-- CI/CD for Terraform with plan/apply gates and environment promotion
-- End-to-end delivery workflows for apps: build, containerize, and deploy through pipelines
-- Stronger alerting and dashboards using KQL and actionable SLO-style signals
-- More workload realism, including apps consuming Key Vault and Storage privately
-- Deeper AKS and App Service deployment patterns
+This is my flagship project demonstrating a complete platform engineering lifecycle.
+- **Advanced CI/CD:** Orchestrated a GitHub Actions pipeline with **7 quality gates**, including **Checkov** (Security), **TFLint** (Linter), and **Infracost** (FinOps).
+- **Secretless Auth:** Implemented **OpenID Connect (OIDC)** for federated identity, eliminating the need for long-lived GitHub secrets.
+- **Zero-Trust Network:** Centralized **Hub-Spoke** architecture utilizing **Azure Firewall (Standard)**, Bastion, and forced tunneling via UDRs.
+- **Private-First PaaS:** Secured all data services (SQL, Storage, Key Vault, ACR) via **Private Endpoints** and **Private DNS Zones**.
+- **Governance at Scale:** Automated Management Group hierarchy and **Azure Policy** initiatives for region restrictions and diagnostic enforcement.
 
 ---
-If you're hiring for Cloud / DevOps / Platform Engineer roles, feel free to reach out at **harsh.hk.ca@gmail.com** — I’d be happy to walk through the landing zone design decisions, trade-offs, and delivery patterns behind these projects.
+
+### 🔧 What I Do (Core Competencies)
+
+- **Azure Platform Engineering:** CAF Landing Zones, Management Groups, Policy-as-Code, Entra ID RBAC.
+- **Secure Networking:** Hub-Spoke, Azure Firewall, Bastion, NSGs, UDRs, Private Link / Endpoints.
+- **Workload Platforms:** AKS, App Service (VNet Integrated), Containerized workloads (Docker).
+- **Observability:** Log Analytics Workspace, KQL, Diagnostic Settings, **AMPLS**, Azure Monitor Alerting.
+- **IaC & Automation:** Modular Terraform, GitHub Actions (OIDC), Infracost (Cost Analysis), TFLint.
+
+---
+
+### 📂 Other Key Repositories
+
+#### 🛠️ [Azure Labs](https://github.com/Hktech-ops/azure-labs)
+*Hands-on operational labs covering production-style administration:*
+- VNet Peering & Intersite connectivity.
+- Traffic filtering with NSGs/ASGs and forced tunneling.
+- Web app deployment patterns and VMSS operations.
+
+#### 🏗️ [Mini Projects](https://github.com/Hktech-ops/mini-projects)
+*Architecture patterns & simulations:*
+- **[Highly Available & Secure Web Architecture](https://github.com/Hktech-ops/mini-projects/tree/main/Highly%20Available%2C%20Scalable%20%26%20Secure%20Web%20Architecture):** Scale Sets + App Gateway + Firewall + Hub/Spoke.
+- **[Cloud Mesh Lab](https://github.com/Hktech-ops/mini-projects/tree/main/Cloud%20Mesh:%20IIS%20and%20Apache%20across%20secure%20VNets):** IIS + Apache deployment across hardened secure VNets.
+
+#### 🚀 [Application Delivery & CI/CD](https://github.com/Hktech-ops/my-spring-boot-app)
+*Workload packaging and pipeline patterns:*
+- Containerizing Spring Boot & Java apps with **Docker**.
+- Build/Deploy pipelines using **Jenkins**, **GitHub Actions**, and **Azure DevOps**.
+- Kubernetes manifests and automated deployment workflows.
+
+---
+
+### 🧠 My Engineering Philosophy
+
+- **Private-by-Default:** If it doesn’t need a public IP, it doesn't have one. Period.
+- **Identity over Secrets:** Preferring **Managed Identities** and **Entra-only authentication** to eliminate credential sprawl.
+- **Observability as a First-Class Citizen:** Centralized logging and diagnostic settings are baked into the Terraform modules, not an afterthought.
+- **FinOps Integration:** Cost is an engineering metric. I integrate Infracost into PRs to ensure visibility on spend before deployment.
+
+---
+
+### 📫 Connect with Me
+- **LinkedIn:** [harsh-kathwadia](https://www.linkedin.com/in/harsh-kathwadia)
+- **Email:** [harsh.hk.ca@gmail.com](mailto:harsh.hk.ca@gmail.com)
+- **GitHub:** [Hktech-ops](https://github.com/Hktech-ops)
+
+---
+*Open to mid-level Cloud / DevOps / Platform Engineering roles.*
